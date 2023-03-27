@@ -1,8 +1,11 @@
 {
-	"name": "ts-lib-starter",
-	"version": "0.0.0",
+	"name": "zendesk-starter-generator",
+	"version": "0.0.1",
 	"type": "module",
-	"description": "boilerplate for your next TypeScript library",
+	"description": "CLI to bootstrap Zendesk Apps for local development",
+	"bin": {
+		"zendesk-starter-generator": "dist/index.js"
+	},
 	"main": "dist/index.cjs",
 	"exports": {
 		"./package.json": "./package.json",

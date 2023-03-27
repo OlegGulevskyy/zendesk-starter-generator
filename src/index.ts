@@ -1,7 +1,9 @@
-import { message } from './constants.js'
+#!/usr/bin/env node
+
+import { message } from "./constants.js";
 
 export const main = () => {
-	console.log(message)
-}
+  console.log(message + 123);
+};
 
-main()
+main();
